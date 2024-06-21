@@ -196,7 +196,6 @@ To get the code refer : https://github.com/N1kh1lS1ngh25/Useful-Scripts/blob/mai
 ### [ii] Deploying Lambda function
 
 - Once Completed the above steps we are good to deploy our lambda Function `slow_query_logs` with SNS Event source ‘`my-database-high-cpu`’
-<br>
 - To deploy the lambda function run the below commands inside the Serverless directory created earlier.
     
     ```bash
@@ -206,11 +205,10 @@ To get the code refer : https://github.com/N1kh1lS1ngh25/Useful-Scripts/blob/mai
     ![deploy](./Screenshots/deploy.png)
     
     **NOTE:** To check the progress you can check the CloudFormation stack in your AWS Console.
-<br>
 - The lambda function is now created and trigger event is configured as well.
     
     ![screenshot](./Screenshots/Untitled%2011.png)
-<br>   
+     
 - Attach below policy to the execution role of the lambda created
     
     ```json
@@ -251,8 +249,7 @@ To get the code refer : https://github.com/N1kh1lS1ngh25/Useful-Scripts/blob/mai
             }
         ]
     }
-    ```
-<br>  
+    ```  
 - Go to SNS Console and create and E-Mail Subscription as well to receive email whenever SNS message is delivered.
 
 ### Scope of improvement:
