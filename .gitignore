@@ -1,0 +1,19 @@
+Auto-slowQuery/.Python
+Auto-slowQuery/env/
+Auto-slowQuery/build/
+Auto-slowQuery/develop-eggs/
+Auto-slowQuery/dist/
+Auto-slowQuery/downloads/
+Auto-slowQuery/eggs/
+Auto-slowQuery/.eggs/
+Auto-slowQuery/lib/
+Auto-slowQuery/lib64/
+Auto-slowQuery/parts/
+Auto-slowQuery/sdist/
+Auto-slowQuery/var/
+Auto-slowQuery/*.egg-info/
+Auto-slowQuery/.installed.cfg
+Auto-slowQuery/*.egg
+
+# Serverless directories
+Auto-slowQuery/.serverless
