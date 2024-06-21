@@ -1,0 +1,13 @@
+service: Auto-slowQuery
+
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: python3.9
+
+functions:
+  slow_query_logs:                      # The logical name for the Lambda function                
+    handler: handler.slow_query_logs    # Specifies the entry point of your Lambda function
+    events:
+      - sns: my-database-high-cpu       # Defines an SNS event source that triggers this Lambda function
