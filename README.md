@@ -100,8 +100,10 @@ We will use Serverless framework to deploy lambda function and  Set Lambda Event
     ![screenshot](./Screenshots/Untitled%2010.png)
     
 4. Paste the lambda function code in handler.py
-To get the code refer : https://github.com/N1kh1lS1ngh25/Useful-Scripts/blob/main/Python-Scripts/rds_slow_query_parameter_toggle.py     
-5. Modify `serverless.yml` as below:
+To get the code refer below links:
+  - https://github.com/N1kh1lS1ngh25/Useful-Scripts/blob/main/Python-Scripts/rds_slow_query_parameter_toggle.py
+  - [link to rds_slow_query_parameter_toggle.py](./rds_slow_query_parameter_toggle.py)
+6. Modify `serverless.yml` as below:
 <br>
     
     ```yaml
