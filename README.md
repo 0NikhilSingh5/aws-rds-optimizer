@@ -1,7 +1,7 @@
 # Automating RDS Parameter Groups with AWS Lambda and SNS
 
 
-### Why i created this workflow?
+### What problem does this solve?
 
 During periods of high CPU usage, our database performance often degraded due to slow-running queries, impacting application performance and user experience. The traditional manual process of identifying and mitigating these issues was inefficient and slow.
 
