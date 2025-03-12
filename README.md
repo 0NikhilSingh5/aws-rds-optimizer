@@ -1,4 +1,4 @@
-# Automating RDS Parameter Groups with AWS Lambda and SNS
+# Fetching slow-query logs during high RDS CPU utilization
 
 
 ### What problem does this solve?
