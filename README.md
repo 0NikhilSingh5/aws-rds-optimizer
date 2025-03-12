@@ -16,7 +16,7 @@ This workflow was developed to save manual effort and to capture the slow querie
 **Workflow:**
 
 ![Workflow](./Screenshots/workflow.png)
-### Resource Setup
+## Resource Setup
 
 ### RDS
 
